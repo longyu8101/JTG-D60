@@ -5,23 +5,23 @@
 
 .. raw:: html
 
-  <b><font size="5">中华人民共和国行业推荐性标准</font></b>
+  <b><font size="5">中华人民共和国行业标准</font></b>
 
  <p></p>
 
  
-公路桥梁技术状况评定标准
+公路桥涵设计通用规范
 =========================================
 .. raw:: html
 
  <p></p>
 
-  <h1 id="test111" ><font size="6"><br/><br/><br/>公路桥梁技术状况评定标准</font></h1>
+  <h1 id="test111" ><font size="6"><br/><br/><br/>公路桥涵设计通用规范</font></h1>
 
- <b><br/><br/><font size="3">Standards for Technical Condition Evaluation of Highway Bridges</font></b>
+ <b><br/><br/><font size="3">General Specifications for Design of Highway Bridges and Culverts</font></b>
 
 
-  <b><br/><br/><br/><font size="4">JTG/T H21-2011</font></b>
+  <b><br/><br/><br/><font size="4">JTG D60 —— 2015</font></b>
 
  <p></p>
 
@@ -30,7 +30,7 @@
  <table border="0" style="font-family:times new roman" >
  <tr>
  <td><font size="4"><br/><br/>主编单位:</font></td>
- <td><font size="4"><br/><br/>交通运输部公路科学研究院</font></td>
+ <td><font size="4"><br/><br/>中交公路规划设计院有限公司</font></td>
  </tr>
  <tr>
  <td><font size="4"><br/>批准部门：</font></td>
@@ -38,7 +38,7 @@
  </tr>
  <tr>
  <td><font size="4"><br/>实施日期：</font></td>
- <td><font size="4"><br/>2011年09月01日</font></td>
+ <td><font size="4"><br/>2015年12月01日</font></td>
  </tr>
  </table>
 	</body>
@@ -58,7 +58,7 @@
 
 
 
- <p><b><font size="4">人民交通出版社</font></b></p>
+ <p><b><font size="4">人民交通出版社股份有限公司</font></b></p>
 
 
 
@@ -74,12 +74,6 @@
     02
     03
     04
-    05
-    06
-    07
-    08
-    09
-    10
     FLA
     ycsm
 
@@ -93,10 +87,5 @@
     twsm/t01
     twsm/t03
     twsm/t04
-    twsm/t05
-    twsm/t06
-    twsm/t07
-    twsm/t08
-    twsm/t09
-    twsm/t10
+
   

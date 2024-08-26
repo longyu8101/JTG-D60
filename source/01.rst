@@ -7,21 +7,151 @@
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id1.0.1"> 1.0.1</a> <span id="id1.0.1">为规范在用公路桥梁技术状况评定，提供桥梁养护决策依据，制定本标准。</span></p>
- <p style="text-align:justify"><a href="#id1.0.2"> 1.0.2</a> <span id="id1.0.2">本标准适用于各级公路的桥梁技术状况评定。</span></p>
- <p style="text-align:justify"><a href="#id1.0.3"> 1.0.3</a> <span id="id1.0.3">公路桥梁技术状况的检测采用目测与仪器相结合的方法。</span></p>
- <p style="text-align:justify"><a href="#id1.0.4"> 1.0.4</a> <span id="id1.0.4">公路桥梁技术状况评定采用分层综合评定与单项指标控制相结合的方法。</span></p>
- <p style="text-align:justify"><a href="#id1.0.5"> 1.0.5</a> <span id="id1.0.5">公路桥梁技术状况评定的技术资料，应归入桥梁养护技术文档和公路桥梁管理系统。</span></p>
- <p style="text-align:justify"><a href="#id1.0.6"> 1.0.6</a> <span id="id1.0.6">公路桥梁技术状况评定，除应符合本标准的规定外，尚应符合现行国家和行业有关标准的规定。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.1"> 1.0.1</a> <span id="id1.0.1">为规范公路桥涵设计，按照安全、耐久、适用、环保、经济和美观的原则，制定本规范。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.2"> 1.0.2</a> <span id="id1.0.2">本规范适用于新建和改建各等级公路桥涵的设计。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.3"> 1.0.3</a> <span id="id1.0.3">公路桥涵结构的设计基准期为100年。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.4"> 1.0.4</a> <span id="id1.0.4">公路桥涵主体结构和可更换部件的设计使用年限不应低于<a href="#B3.2.2">表1.0.4</a>的规定。</span></p>
+ <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.0.4">表1.0.4 桥涵设计使用年限（年）</b></caption>	
+              
+		    <tr>
+		      <td  align="center" rowspan="2" >公路等级</td>
+		      <td  align="center" colspan="3">主体结构</td>
+			  <!-- <td></td> -->
+              <!-- <td></td> -->
+		      <td  align="center" colspan="2">可更换部件</td>
+			  <!-- <td></td> -->
+		    </tr>
+  		    <tr>
+		     <!-- <td></td> -->
+		      <td  align="center">特大桥<br/>大桥</td>
+			  <td  align="center" >中桥</td>
+              <td  align="center">小桥<br/>涵洞</td>
+              <td  align="center">斜拉索<br/>吊索<br/>系杆等</td>
+              <td  align="center">栏杆<br/>伸缩装置<br/>支座等</td>
+		    </tr>
+  		    <tr>
+		      <td  align="center"width=150px>高速公路<br/>一级公路</td>
+		      <td  align="center"width=150px >100</td>
+			  <td  align="center"width=150px >100</td>
+              <td  align="center"width=150px >50</td>
+              <td  align="center"width=150px rowspan="3">20</td>
+              <td  align="center"width=150px rowspan="3">15</td>
+		    </tr>
+            <tr>
+		      <td  align="center"width=150px>二级公路<br/>三级公路</td>
+		      <td  align="center"width=150px >100</td>
+			  <td  align="center"width=150px >50</td>
+              <td  align="center"width=150px >30</td>
+             <!-- <td></td> -->
+             <!-- <td></td> -->
+		    </tr>
+            <tr>
+		      <td  align="center"width=150px>四级公路</td>
+		      <td  align="center"width=150px >100</td>
+			  <td  align="center"width=150px >50</td>
+              <td  align="center"width=150px >30</td>
+             <!-- <td></td> -->
+             <!-- <td></td> -->
+		    </tr>
+  		    
+ 		</table>       
+:math:`\ `
+
 .. raw:: html
 
-    <style>
-        #abc{
-            height:400px;
-            background-color: #f0ffff;
-        }
-    </style>
- </head>
- <body>
-    <div id="abc"></div>
- </body>
+  <p style="text-align:justify"><a href="#id1.0.5"> 1.0.5</a> <span id="id1.0.5">特大、大、中，小桥及涵洞按单孔跨径或多孔跨径总长分类规定见<a href="#B3.2.2">表1.0.5</a>。</span></p>
+ <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.0.4">表1.0.5 桥梁涵洞分类</b></caption>	
+              
+		    <tr>
+		      <td  align="center" width=300px>桥涵分类</td>
+		      <td  align="center" width=300px>多孔跨径总长<i>L</i>(m)</td>
+			  <td  align="center" width=300px>单孔跨径<i>L<sub>K</sub></i>(m)</td>
+		    </tr>
+  		    <tr>
+		      <td  align="center" >特大桥</td>
+		      <td  align="center" ><i>L</i>＞1000</td>
+			  <td  align="center" ><i>L<sub>K</sub></i>＞150</td>
+		    </tr>
+           	<tr>
+		      <td  align="center" >大桥</td>
+		      <td  align="center" ><i>L</i>＞1000</td>
+			  <td  align="center" >40≤<i>L<sub>K</sub></i>≤150</td>
+		    </tr>   
+           	<tr>
+		      <td  align="center" >中</td>
+		      <td  align="center" ><i>L</i>＞1000</td>
+			  <td  align="center" >20≤<i>L<sub>K</sub></i>＜40</td>
+		    </tr>
+           	<tr>
+		      <td  align="center" >小桥</td>
+		      <td  align="center" ><i>L</i>＞1000</td>
+			  <td  align="center" >5≤<i>L<sub>K</sub></i>＜20</td>
+		    </tr>
+             <tr>
+		      <td  align="center" >涵洞</td>
+		      <td  align="center" >——</td>
+			  <td  align="center" ><i>L<sub>K</sub></i>＜5</td>
+		    </tr>                         		   
+ 		</table>    
+     <p> <font size="2">注：1. 单孔跨径系指标准跨径。<br/>
+    &emsp;&ensp;&nbsp; 2. 梁式桥、板式桥的多孔跨径总长为多孔标准跨径的总长；拱式桥为两端桥台内起拱线间的距离；其他形式桥梁为桥面系行车道长度。<br/> 
+    &emsp;&ensp;&nbsp; 3. 管涵及箱涵不论管径或跨径大小、孔数多少，均称为涵洞。<br/>
+    &emsp;&ensp;&nbsp; 4. 标准跨径：梁式桥、板式桥以两桥墩中线间距离或桥墩中线与台背前缘间距为准；拱式桥和涵洞以净跨径为准。
+ </font></p>
+ <p style="text-align:justify"><a href="#id1.0.6"> 1.0.6</a> <span id="id1.0.6">公路桥涵应进行抗风、抗震、抗撞等减灾防灾设计。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.7"> 1.0.7</a> <span id="id1.0.7">公路桥涵设计应满足环境保护和资源节约的有关要求。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.8"> 1.0.8</a> <span id="id1.0.8">公路桥涵设计除应符合本规范的规定外，尚应符合国家和行业现行有关标准的规定。</span></p>
+
+
+ 
+  

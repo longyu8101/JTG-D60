@@ -10,104 +10,260 @@
 --------------------
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id2.1.1"> 2.1.1</a> <span id="id2.1.1"> 桥梁构件 bridge member<br>
- 组成桥梁结构的最小单元，如一片梁、一个桥墩等。</span></p>
- <p style="text-align:justify"><a href="#id2.1.2"> 2.1.2</a> <span id="id2.1.2"> 桥梁部件 bridge component<br>
- 结构中同类构件的统称，如梁、桥墩等。</span></p>
- <p style="text-align:justify"><a href="#id2.1.3"> 2.1.3</a> <span id="id2.1.3"> 蜂窝 voids<br>
- 混凝土局部不密实或松散，混凝土表面多砂少浆，呈蜂窝状孔洞。</span></p>
- <p style="text-align:justify"><a href="#id2.1.4"> 2.1.4</a> <span id="id2.1.4"> 麻面 hungry spots<br>
- 混凝上表面局部缺浆、粗糙，或有大量小凹坑的现象</span></p>
- <p style="text-align:justify"><a href="#id2.1.5"> 2.1.5</a> <span id="id2.1.5"> 剥落 spalling<br>
- 混凝土表层脱落、粗集料外露的现象。严重时，成片状脱落，钢筋外露。</span></p>
- <p style="text-align:justify"><a href="#id2.1.6"> 2.1.6</a> <span id="id2.1.6"> 掉角 edge failure<br>
- 构件角边处混凝上局部掉落，或出现不规整缺陷。</span></p>
- <p style="text-align:justify"><a href="#id2.1.7"> 2.1.7</a> <span id="id2.1.7"> 裂缝 erack<br>
- 构件表面的开裂现象。混凝土中裂缝的严重程度，可依据裂缝的产生原因、长度与宽度的大小及其是否随时间而增加等因素来判断。本标准中构件上下底面裂缝根据性状不同分为：网状裂缝、纵向裂缝、横向裂缝、斜向裂缝；侧立面裂缝根据性状不同分为：网状裂缝、竖向裂缝、斜向裂缝、水平裂缝。</span></p>
- <p style="text-align:justify"><a href="#id2.1.8"> 2.1.8</a> <span id="id2.1.8"> 跨中挠度 mid-span deflection<br>
- 桥梁结构或构件在荷载作用下跨中截面产生的竖向位移。</span></p>
- <p style="text-align:justify"><a href="#id2.1.9"> 2.1.9</a> <span id="id2.1.9"> 结构位移 structural displacement<br>
- 由于基础移动、超载、碰撞、火灾、冲刷等原因引起的结构或构件位置的移动或截面的转动。</span></p>
- <p style="text-align:justify"><a href="#id2.1.10"> 2.1.10</a> <span id="id2.1.10"> 涂层缺陷 coating defect<br>
- 钢结构表面涂层出现流痕、气泡、白化、起皱、起皮等现象。</span></p>
- <p style="text-align:justify"><a href="#id2.1.11"> 2.1.11</a> <span id="id2.1.11"> 磨损 abrasion<br>
- 构件在车辆、水流等外界作用下出现的集料和砂浆的表面磨耗脱损现象。</span></p>
- <p style="text-align:justify"><a href="#id2.1.12"> 2.1.12</a> <span id="id2.1.12"> 桥梁基础冲刷、淘空 scour and cavem of bridge foundation <br>
- 在水流作用下，基础周围埋置物被冲刷淘空的现象。</span></p>
-
+ <p style="text-align:justify"><a href="#id2.1.1"> 2.1.1</a> <span id="id2.1.1"> 设计基准 design reference period<br>
+ 为确定可变作用等的取值而选用的时间参数。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.2"> 2.1.2</a> <span id="id2.1.2"> 设计使用年限design working/service life<br>
+ 在正常设计，正常施工、正常使用和正养养护条件下，桥涵结构或结构构件不需进行大修或更换，即可按其预定目的使用的年限。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.3"> 2.1.3</a> <span id="id2.1.3"> 极限状态 limit states<br>
+ 整个结构或结构的一部分超过某一特定状态就不能满足设计规定的某一功能要求，此特定状态为该功能的极限状态。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.4"> 2.1.4</a> <span id="id2.1.4"> 承载能力极限状态 ultimate limit states<br>
+ 对应于结构或结构构件达到最大承载力或不适于继续承载的变形的状态。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.5"> 2.1.5</a> <span id="id2.1.5"> 正常使用极限状态 serviceability limit states<br>
+ 对应于结构或结构构件达到正常使用或耐久性能的某项规定限值的状态。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.6"> 2.1.6</a> <span id="id2.1.6"> 设计状况 design situations<br>
+ 代表一定时段内实际情况的一组设计条件，设计时应做到在该组条件下结构不超越有关的极限状态。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.7"> 2.1.7</a> <span id="id2.1.7"> 结构耐久性 structural durability<br>
+ 在设计确定的环境作用和养护、使用条件下，结构及其构件在设计使用年限内保持其安全性和适用性的能力。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.8"> 2.1.8</a> <span id="id2.1.8"> 作用 action<br>
+ 施加在结构上的集中力和分布力（直接作用，也称为荷截）和引起结构外加变形或约束变形的原因（间接作用）。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.9"> 2.1.9</a> <span id="id2.1.9"> 永久作用 permanent action<br>
+ 在设计基准期内始终存在且其量值变化与平均值相比可以忽略不计的作用，或其变化是单调的并趋于某个限值的作用。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.10"> 2.1.10</a> <span id="id2.1.10"> 可变作用 variable action<br>
+ 在设计基准期内其量值随时间而变化，且变化值与平均值相比不可忽略不计的作用。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.11"> 2.1.11</a> <span id="id2.1.11"> 偶然作用 accidental action<br>
+ 在设计基准期内不一定出现，而一旦出现其量值很大，且持续时间很短的作用。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.12"> 2.1.12</a> <span id="id2.1.12"> 作用的标准值 characteristic value of an action <br>
+ 作用的主要代表值，可根据对观测数据的统计、作用的自然界限或工程经验确定。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.13"> 2.1.13</a> <span id="id2.1.13">可变作用的伴随值 accompanying value of variable action<br>
+ 在作用组合中，伴随主导作用的可变作用值。可以使组合值、频遇值或准永久值。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.14</a> <span id="id2.1.14">作用的代表值 representative value of an action<br>
+ 极限状态设计所采用的作用值。可以使作用的标准值或可变作用的伴随值。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.15</a> <span id="id2.1.15">作用的设计值 design value of an action<br>
+ 作用的代表值与作用分项系数的乘积。 </span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.16</a> <span id="id2.1.16">可变作用的组合值 combination value of a variable action<br>
+ 使用组合后的作用效应的超越概率与该作用单独出现时其标准值作用效应的超越概率趋于一致的作用值；或组合后使结构具有规定可靠指标的作用值。可通过组合值系数对作用标准值的折减来表示。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.17</a> <span id="id2.1.17">可变作用的频遇值 frequent value of a variable action<br>
+ 在设计基准期内被超越的总时间占设计基准期内的比率较小的作用值；或被超越的频率限制在规定频率内的作用值。可通过频遇值系数对作用标准值的折减来表示。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.18</a> <span id="id2.1.18">可变作用的准永久值 quasi-permanent value of a variable action<br>
+ 在设计基准期内被超越的总时间站设计基准期的比率较大的作用值。可通过准永久值系数对作用标准值的这件来表示。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.19</a> <span id="id2.1.19">作用效应 effect of action<br>
+ 由作用引起的结构或结构构件的反应。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.20</a> <span id="id2.1.20">作用组合（荷载组合） combination of actions (load combination)<br>
+ 在不同作用的同时影响下，为验证某一极限状态的结构可靠度而采用的一组作用设计值。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.21</a> <span id="id2.1.21">作用基本组合 fundamental combination of actions<br>
+ 承载能力极限状态设计时，永久作用设计值与可变作用设计值的组合。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.22</a> <span id="id2.1.22">作用偶然组合 frequent conbination of actions<br>
+ 承载能力极限状态设计时，永久作用标准值与可变作用某种代表值、一种偶然作用设计值的组合。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.23</a> <span id="id2.1.23">作用频遇组合 quasi-permanent conbination of actions<br>
+ 正常使用极限状态时，永久作用标准值与主导可变作用频遇值、伴随可变作用准永久值的组合。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.24</a> <span id="id2.1.24">作用准永久组合 partial safety factot<br>
+ 正常使用极限状态设计时，永久作用标准值与可变作用准永久值的组合。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.25</a> <span id="id2.1.25">分项系数 partial safetu factor<br>
+ 用概率极限状态设计法设计时，为保证所设计的结构具有规定的可靠度，在设计表达式中采用的系数。分为作用分项系数和抗力分项系数两类。</span></p>
+  <p style="text-align:justify"><a href="#id2.1.13"> 2.1.26</a> <span id="id2.1.26">结构重要性系数 factor for importance of structure<br>
+ 对不同安全等级的结构，为使其具有规定的可靠度而采用的分项系数。</span></p>
 
 2.2 符号
 -------------------------------
 
 .. raw:: html
 
+ <p style="text-align:justify"><a href="#id2.2.1"> 2.2.1</a> <span id="id2.2.1"> 材料性能有关符号</span></p>
 
  <body>
  <table border="0" style="font-family:times new roman" >
  <tr>
- <td width=70px align="right"><i>D</i><sub>r</sub></td>
+ <td width=70px align="right"><i>R</i><sub>bk</sub></td>
  <td width=20px align="center">——</td>
- <td  align="left">桥梁总体技术状况评分；</td>
+ <td  align="left">冰的抗弯强度标准值；</td>
  </tr>
  <tr>
- <td align="right"><i>D</i><sub>j</sub></td>
+ <td align="right"><i>R</i><sub>ik</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥梁总体技术状况等级；</td>
+ <td  align="left">冰的抗压强度标准值；</td>
  </tr>
   <tr>
- <td align="right">SPCI</td>
+ <td align="right"><i>γ</i></td>
  <td  align="center">——</td>
- <td  align="left">桥梁上部结构技术状况评分：</td>
+ <td  align="left">材料的重度。</td>
+ </tr>
+  </table>
+	</body>
+ <p></p>
+
+ <p style="text-align:justify"><a href="#id2.2.2"> 2.2.2</a> <span id="id2.2.2"> 作用和作用效应的有关符号</span></p>
+
+ <body>
+ <table border="0" style="font-family:times new roman" >
+ <tr>
+ <td width=70px align="right"><i>E</i></td>
+ <td width=20px align="center">——</td>
+ <td  align="left">主动土压力标准值；</td>
+ </tr>
+ <tr>
+ <td align="right"><i>E</i><sub>j</sub></td>
+ <td  align="center">——</td>
+ <td  align="left">高度<i>H</i>范围内单位宽度的静土压力标准值；</td>
  </tr>
   <tr>
- <td align="right">PCCI</td>
+ <td align="right"><i>F</i><sub>pe</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥梁上部结构各部件技术状况评分：</td>
+ <td  align="left">预加力标准值；</td>
  </tr>
   <tr>
- <td align="right">PMCI</td>
+ <td align="right"><i>G</i><sub>ik</sub>、<i>G</i><sub>id</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥梁上部结构各构件技术状况评分：</td>
+ <td  align="left">第i个永久作用的标准值和设计值；</td>
  </tr>
   <tr>
- <td align="right">SBCI</td>
+ <td align="right"><i>Q</i><sub>jk</sub>、<i>Q</i><sub>jd</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥梁下部结构技术状况评分；</td>
+ <td  align="left">第j个永久作用的标准值和设计值；</td>
  </tr>
   <tr>
- <td align="right">BCCI</td>
+ <td align="right"><i>A</i><sub>d</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥梁下部结构各部件技术状况评分：</td>
+ <td  align="left">偶然作用的设计值；</td>
  </tr>
   <tr>
- <td align="right">BMCI</td>
+ <td align="right"><i>S</i><sub>ud</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥梁下部结构各构件技术状况评分；</td>
+ <td  align="left">承载能力极限状态下作用基本组合的效应设计值；</td>
  </tr>
   <tr>
- <td align="right">BDCI</td>
+ <td align="right"><i>S</i><sub>ad</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥面系技术状况评分：</td>
+ <td  align="left">承载能力极限状态下作用偶然组合的效应设计值；</td>
  </tr>
   <tr>
- <td align="right">DCCI</td>
+ <td align="right"><i>S</i><sub>fd</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥面系各部件技术状况评分；</td>
+ <td  align="left">作用频遇组合的效应设计值；</td>
  </tr>
   <tr>
- <td align="right">DMCI</td>
+ <td align="right"><i>S</i><sub>qd</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥面系各构件技术状况评分；</td>
+ <td  align="left">作用准永久组合的效应设计值；</td>
  </tr>
   <tr>
- <td align="right"><i>W</i></td>
+ <td align="right"><i>σ</i><sub>pe</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥梁各部件技术状况评定权值；</td>
+ <td  align="left">预应力钢筋的有效预应力；</td>
  </tr>
   <tr>
- <td align="right">DP</td>
+ <td align="right"><i>σ</i><sub>con</sub></td>
  <td  align="center">——</td>
- <td  align="left">桥梁构件各类病害的扣分值。</td>
+ <td  align="left">预应力钢筋张拉控制应力；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>σ<sub>l</sub></i></td>
+ <td  align="center">——</td>
+ <td  align="left">预应力钢筋的相应阶段的预应力损失。</td>
+ </tr>
+ </table>
+	</body>
+ <p></p>
+ <p style="text-align:justify"><a href="#id2.2.3"> 2.2.3</a> <span id="id2.2.3"> 几何参数有关符号</span></p>
+
+ <body>
+ <table border="0" style="font-family:times new roman" >
+ <tr>
+ <td width=70px align="right"><i>R</i></td>
+ <td width=20px align="center">——</td>
+ <td  align="left">曲线半径；</td>
+ </tr>
+ <tr>
+ <td align="right"><i>A</i><sub>p</sub></td>
+ <td  align="center">——</td>
+ <td  align="left">预应力钢筋的截面面积；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>l</i></td>
+ <td  align="center">——</td>
+ <td  align="left">桥梁跨径。</td>
+ </tr>
+  </table>
+	</body>
+ <p></p>
+
+ <p style="text-align:justify"><a href="#id2.2.4"> 2.2.4</a> <span id="id2.2.4"> 计算系数及其他有关符号</span></p>
+
+ <body>
+ <table border="0" style="font-family:times new roman" >
+ <tr>
+ <td width=70px align="right"><i>C</i><sub>t</sub></td>
+ <td width=20px align="center">——</td>
+ <td  align="left">冰温系数；</td>
+ </tr>
+ <tr>
+ <td align="right"><i>f</i></td>
+ <td  align="center">——</td>
+ <td  align="left">结构基频；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>g</i></td>
+ <td  align="center">——</td>
+ <td  align="left">重力加速度；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>m</i></td>
+ <td  align="center">——</td>
+ <td  align="left">桩或墩迎冰面形状系数；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>ξ</i></td>
+ <td  align="center">——</td>
+ <td  align="left">压实土的静土压力系数；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>φ</i></td>
+ <td  align="center">——</td>
+ <td  align="left">土的内摩擦角；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>λ</i></td>
+ <td  align="center">——</td>
+ <td  align="left">侧压系数；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>μ</i></td>
+ <td  align="center">——</td>
+ <td  align="left">支座的摩擦系数；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>γ</i><sub>0</sub></td>
+ <td  align="center">——</td>
+ <td  align="left">结构重要性系数；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>γ</i><sub>Gi</sub></td>
+ <td  align="center">——</td>
+ <td  align="left">第i个永久作用的分项系数；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>γ</i><sub>Qj</sub></td>
+ <td  align="center">——</td>
+ <td  align="left">第j个可变作用的分项系数；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>γ</i><sub>L</sub></td>
+ <td  align="center">——</td>
+ <td  align="left">可变作用的结构设计使用年限荷载调整系数；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>ψ</i><sub>c</sub></td>
+ <td  align="center">——</td>
+ <td  align="left">可变作用的组合值系数；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>ψ</i><sub>f</sub></td>
+ <td  align="center">——</td>
+ <td  align="left">可变作用的频遇值系数；</td>
+ </tr>
+  <tr>
+ <td align="right"><i>ψ</i><sub>q</sub></td>
+ <td  align="center">——</td>
+ <td  align="left">可变作用的准永久值系数。</td>
  </tr>
  </table>
 	</body>

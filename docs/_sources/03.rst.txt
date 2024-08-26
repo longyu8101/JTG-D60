@@ -1,36 +1,108 @@
-3 评定方法及等级分类
+3 设计要求
 =============================
 
 .. raw:: html
 
-  <h2 id="test111">3 评定方法及等级分类</h2>
+  <h2 id="test111">3 设计要求</h2>
 
-3.1 桥梁技术状况评定方法
+3.1 一般规定
 ---------------------------------
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id3.1.1"> 3.1.1</a> <span id="id3.1.1"> 公路桥梁技术状况评定包括桥梁构件、部件、桥面系、上部结构、下部结构和全桥评定。公路桥梁技术状况评定应采用分层综合评定与5类桥梁单项控制指标相结合的方法，先对桥梁各构件进行评定，然后对桥梁各部件进行评定，再对桥面系、上部结构和下部结构分别进行评定，最后进行桥梁总体技术状况的评定、桥梁检查评定记录表可按附录A的要求执行。评定指标如<a href="#fig3.1.1">图3.1.1</a>所示。</span></p>
- <p text-align:center>
- <body>
-
- <figure>
-    <img src="./_static/fig/fig3.1.1.png" alt=" " title=" ">
-     <p></p>     
-  <figcaption style="caption-side:top;text-align: center;color:black"><b style="text-align:center"><div id="fig3.1.1">图 3.1.1 桥梁技术状况评定指标</b></figcaption>
-  </figure>
-
-  </body>
+ <p style="text-align:justify"><a href="#id3.1.1"> 3.1.1</a> <span id="id3.1.1"> 公路桥涵应根据公路功和技术等级，考虑因地制宜、就地取材，便于施工和养护等因素进行总体设计，在设计使用年限内应满足规定的正常交通荷载通行的需要。</span></p>
  
+ <p style="text-align:justify"><a href="#id3.1.2"> 3.1.2</a> <span id="id3.1.2"> 公路桥涵线形设计应符合下列规定：</span></p>
+ <ol>
+ <li>中小桥涵线形设计应符合路线设计的总体要求。</li>
+ <li>特大、大桥线形设计应综合考虑路线总体走向、桥区地质、地形、安全通行、通航、已有建筑设施，环境敏感区等因素。</li>
+ <li>特大，大桥宜采用较高的平曲线指标，纵断面不宜设计成平坡或凹曲线。</li>
+ </ol>
+ <p style="text-align:justify"><a href="#id3.1.3"> 3.1.3</a> <span id="id3.1.3"> 公路桥涵结构应按承载能力极限状态和正常使用极限状态进行设计。</span></p>
 
- <p style="text-align:justify"><a href="#id3.1.2"> 3.1.2</a> <span id="id3.1.2"> 当单个桥梁存在不同结构形式时，可根据结构形式的分布情况划分评定单元，分别对各评定单元进行桥梁技术状况的等级评定。</span></p>
+ <p style="text-align:justify"><a href="#id3.1.4"> 3.1.4</a> <span id="id3.1.4"> 公路桥涵应根据不同种类的作用及其对桥涵的影响、桥涵所处的环境条件，考以下四种设计状况，进行极限状态设计：</span></p>
+ <ol>
+ <li>持久状况应进行承载能力极限状态和正常使用极限状态设计。</li>
+ <li>短暂状况应作承载能力极限状态设计，可根据需要进行正常使用极限状态设计。</li>
+ <li>偶然状况应作承载能力极限状态设计。</li>
+ <li>地震状况应作承载能力极限状态设计。</li>
+ </ol>
+ <p style="text-align:justify"><a href="#id3.1.5"> 3.1.5</a> <span id="id3.1.5"> 公路桥梁钢结构部分应根据需要进行抗疲劳设计。</span></p>
+ <p style="text-align:justify"><a href="#id3.1.6"> 3.1.6</a> <span id="id3.1.6"> 公路桥梁应按相关规定进行设计阶段风险评估。</span></p>
+ <p style="text-align:justify"><a href="#id3.1.7"> 3.1.7</a> <span id="id3.1.7"> 公路桥涵应按照设计使用年限和环境条件进行耐久性设计。</span></p>
+ <p style="text-align:justify"><a href="#id3.1.8"> 3.1.8</a> <span id="id3.1.8"> 公路桥涵应考虑养护需要，按照可到达、可检查、可维修和可更换的要求进行设计。</span></p>
+ <p style="text-align:justify"><a href="#id3.1.9"> 3.1.9</a> <span id="id3.1.9"> 公路桥涵应与自然环境和景观相协调；特殊大桥宜进行景观设计。</span></p>
 
-3.2 桥梁技术状况等级分类
+3.2 桥涵布置
 ----------------------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id3.2.1"> 3.2.1</a> <span id="id3.2.1"> 桥梁部件分为主要部件和次要部件。</span></p>
- <p style="text-align:justify"><a href="#id3.2.2"> 3.2.2</a> <span id="id3.2.2"> 各结构类型桥梁主要部件见<a href="#B3.2.2">表3.2.2</a>，其他部件为次要部件。</span></p>
+ <p style="text-align:justify"><a href="#id3.2.1"> 3.2.1</a> <span id="id3.2.1"> 桥梁应根据公路功能、等级、通行能力及抗洪防灾要求，结合水文、地质、通航、环境等条件进行综合设计，并应符合下列规定：</span></p>
+ <p style="text-align:justify"><a href="#id3.2.2"> 3.2.2</a> <span id="id3.2.2"> 当桥址处有两个及两个以上的稳定河槽，或滩地流量占设计流量比例较大，且水流不易引人同一座桥时，可在各河槽、滩地、河汊上分别设桥，不宜用长大导流堤强行集中水流。平坦、草原、漫流地区，可按分片泄洪布置桥涵。天然河道不宜改移或裁弯取直。</span></p>
+ <p style="text-align:justify"><a href="#id3.2.3"> 3.2.3</a> <span id="id3.2.3">  桥梁纵轴线宜与洪水主流流向正交。对通航河流上的桥梁，其墩台沿水流方向的轴线应与最高通航水位时的主流方向一致。当斜交不能避免时，交角不宜大于5°；当交角大于5°且斜桥正做时，墩（台）边缘净距宜按式（3.2.3）计算，其计算简图如<a href="#fig3.2.3">图3.2.3所示。</a></span></p>
+  <p text-align:center>
+ <body>
+ 
+ <figure>
+ <div style="text-align:center"> 
+    <img src="./_static/fig/fig3.2.3.png" alt=" " title=" " align=" center " width=400px >
+    <p></p>     
+  <figcaption style="caption-side:top;text-align: center;color:black"><b style="text-align:center"><div id="fig3.2.3">图 3.2.3 墩（台）边缘净距计算简图</b></figcaption>
+  </figure>
+
+  </body>
+
+$$l_{a}=\\frac{l+b\\mathrm{sin}a}{\\mathrm{cos}a}\\tag{3.2.3}$$
+
+.. raw:: html 
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="60px" align='right' id="eqzs" >式中:</td>
+ <td width="70px" align='right'  id="eqzs" ><i>l</i><sub><i>a</i></sub></td>
+  <td width="40px" align='center' id="eqzs">——</td>
+ <td  id="eqzs" align='left'> 相当于计算水位的墩（台）边缘之间的净距（m）；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>l</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">通航要求的有效跨径（m）；</td>
+  </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>b</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">墩（台）的长度（m）；</td>
+ </tr>
+  <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs" align='right'><i>a</i></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">垂直于水流方向与桥纵轴线间的交角（°）。</td>
+ </tr>
+  </table>
+ <p> </p>
+
+ <p style="text-align:justify"><a href="#id3.2.4"> 3.2.4</a> <span id="id3.2.4"> 桥涵水文，水力的计算应符合现行《公路工程地质勘察规范》（JTG C20）和《公路工程水文勘测设计规范》（JTG C30）的规定。</span></p>
+ <p style="text-align:justify"><a href="#id3.2.5"> 3.2.5</a> <span id="id3.2.5"> 通航海轮的桥梁布置应满足现行《通航海轮桥梁通航标准》（JTJ 311）的规定。通航内河桥梁的布置应满足现行《内河通航标准》（GB 50139）的规定，并应充分考虑河床演变和不同通航水位航迹线的变化。</span></p>
+ <p style="text-align:justify"><a href="#id3.2.6"> 3.2.6</a> <span id="id3.2.6"> 位于通航水域中的桥梁宜减少在通航水域中设置桥墩，并宜设置干浅水区。可能遭受船舶或漂流物撞击的桥嫩，应考虑船舶或漂流物的撞击作用，并应设置警示标志和必要的防撞设施。</span></p>
+ <p style="text-align:justify"><a href="#id3.2.7"> 3.2.7</a> <span id="id3.2.7"> 桥梁跨越有中央分隔带的多车道公路时，不宜在中央分隔带内设量桥墩。需要设置桥墩时，桥墩结构应考虑汽车的撞击作用，并应在桥墩附近设置必要的能防撞设施及警示标志、标线。<br/>
+  跨线桥的桥墩设置在检下公路的路侧时，不得侵入公路建筑限界。桥墩宜设置在公路路侧净区以外；不能满足时，应设置桥下公路路侧护栏和桥墩保护设施。</span></p>
+ <p style="text-align:justify"><a href="#id3.2.8"> 3.2.8</a> <span id="id3.2.8"> 为保证桥位附近水流顺畅，河槽、河岸不发生严重变形，必要时可在桥梁上、下游修建调治构造物，并应符合下列规定：</span></p>
+  <ol>
+ <li>调治构造物的形式及其布置应根据河流性质、地形、地质、河滩水流情况以及通航要求、桥头引道，水利设施等因素综合考虑确定。</li>
+ <li> 非淹没式调治构造物的顶面，应高出桥涵设计洪水频率的水位至少0.25m，必要时尚应考虑雍水高、波浪爬高、斜水流局部冲高、河床淤积等影响。</li>
+ <li>允许淹没的调治构造物的顶面应高出常水位。</li>
+ <li>单边河滩流量不超过总流量的15%或双边河滩流量不超过25%时，可不设导流堤。</li>
+ </ol>
+ <p style="text-align:justify"><a href="#id3.2.9"> 3.2.9</a> <span id="id3.2.9"> 公路桥涵的设计洪水频率应符合<a href="#B3.2.9">表3.2.9</a>的规定，并应符合下列规定：</span></p>
+  <ol>
+ <li>二级公终上的特大桥及三、四级公路上的大桥，在河床比降大，易于冲刷的情况下，宜提高一级洪水频率验算基础冲刷深度。</li>
+ <li>沿河纵向高架桥和桥头引道的设计洪水频率应符合现行《公路工程技术标准）（JTG B01）中路基设计洪水频率的有关规定。</li>
+ <li>对由多孔中小跨径桥梁组成的特大桥，其设计洪水频率可采用大桥标准。</li>
+ <li>三、四级公路，在交通容许有限度的中断时，可修建漫水桥和过水路面。漫水桥和过水路面的设计洪水频率，应根据容许阻断交通的时间长短和对上下游农田、城镇、村庄的影响以及泥沙淤塞桥孔、上游河床的淤高等因素确定。</li>
+ </ol>
 
   <style>
      #biaoge {
@@ -57,157 +129,265 @@
 
 		<table id="biaoge" style="font-family:times new roman">
 
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.2.2">表3.2.2 各结构类型桥梁主要部件</b></caption>	
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.2.9">表3.2.9 桥涵设计洪水频率</b></caption>	
               
 		    <tr>
-		      <td  align="center" width=50px>序号</td>
-		      <td  align="center" width=350px>结构类型</td>
-				  <td  align="center" width=500px>主要部件</td>
+		      <td  align="center" rowspan="2" >公路等级</td>
+		      <td  align="center" colspan="5">设计洪水频率</td>
+			  <!-- <td></td> -->
+			  <!-- <td></td> -->
+			  <!-- <td></td> -->
+			  <!-- <td></td> -->
 		    </tr>
   		    <tr>
-		      <td  align="center" >1</td>
-		      <td  align="left" >梁式桥</td>
-				  <td  align="left" >上部承重构件、桥墩、前台、基础、支座</td>
+		     <!-- <td></td> -->
+		     <td  align="center" width=100px>特大桥</td>
+			 <td  align="center" width=100px>大桥</td>
+			 <td  align="center" width=100px>中桥</td>
+			 <td  align="center" width=100px>小桥</td>
+			 <td  align="center" width=300px>涵洞及小型排水沟造物</td>
 		    </tr>
   		    <tr>
-		      <td  align="center" >2</td>
-		      <td  align="left" >板拱桥（圬工、混凝土）、肋拱桥、箱形拱桥、双曲拱桥</td>
-				  <td  align="left" >主拱圈、拱上结构、桥面板、桥墩、桥台、基础</td>
+		     <td  align="center" width=200px>高速公路</td>
+		     <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/100</td>
 		    </tr>
   		    <tr>
-		      <td  align="center" >3</td>
-		      <td  align="left" >刚架拱桥、桁架拱桥</td>
-				  <td  align="left" >刚架（桁架）拱片、横向连接系、桥面板、桥墩、桥台、基础</td>
+		     <td  align="center" width=200px>一级公路</td>
+		     <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/100</td>
 		    </tr>
   		    <tr>
-		      <td  align="center" >4</td>
-		      <td  align="left" >钢—混凝土组合拱桥</td>
-				  <td  align="left" >拱肋、横向连接系、立柱、吊杆、系杆、行车道板（梁）、支座</td>
+		     <td  align="center" width=200px>二级公路</td>
+		     <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/50</td>
+			 <td  align="center" > 1/50</td>
 		    </tr>
   		    <tr>
-		      <td  align="center" >5</td>
-		      <td  align="left" >悬索桥</td>
-				  <td  align="left" >主缆、吊索、加劲梁、索塔、锚碇、桥墩、桥台、基础、支座</td>
+		     <td  align="center" width=200px>三级公路</td>
+		     <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/50</td>
+			 <td  align="center" > 1/50</td>
+			 <td  align="center" > 1/25</td>
+			 <td  align="center" > 1/25</td>
 		    </tr>
   		    <tr>
-		      <td  align="center" >6</td>
-		      <td  align="left" >斜拉桥</td>
-				  <td  align="left">斜拉索（包括锚具）、主梁、索塔、桥墩、桥台、基础、支座</td>
-		    </tr> 
- 		</table>       
-   <p></p>
-
- <p style="text-align:justify"><a href="#id3.2.3"> 3.2.3</a> <span id="id3.2.3"> 桥梁总体技术状况评定等级分为1类、2类、3类、4类、5类，见<a href="#B3.2.3">表3.2.3</a>。</span></p>
- 
- 		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.2.3">表3.2.3 桥梁总体技术状况评定等级</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=100px>技术状况<br>评定等级</td>
-				  <td  align="center" width=800px>桥梁技术状况描述</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >1类</td>
-		      <td  align="left" >全新状态、功能良好</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >2类</td>
-		      <td  align="left" >有轻微缺损、对桥梁使用功能无影响</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >3类</td>
-		      <td  align="left" >有中等缺损、尚能维持正常使用功能</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >4类</td>
-		      <td  align="left" >主要构件有大的缺损，严重影响桥梁使用功能；或影响承载能力，不能保证正常使用</td>
-        </tr>
-  		    <tr>
-		      <td  align="center" >5类</td>
-		      <td  align="left" >主要构件存在严重缺损，不能正常使用，危机桥梁安全，桥梁处于危险状态</td>
-        </tr>
+		     <td  align="center" width=200px>四级公路</td>
+		     <td  align="center" > 1/100</td>
+			 <td  align="center" > 1/50</td>
+			 <td  align="center" > 1/50</td>
+			 <td  align="center" > 1/25</td>
+			 <td  align="center" > 不作规定</td>
+		    </tr>									
  		</table>       
    <p></p>
 
  
- <p style="text-align:justify"><a href="#id3.2.4"> 3.2.4</a> <span id="id3.2.4"> 桥梁主要部件技术状况评定标度分为1类、2类、3类、4类、5类，见<a href="#B3.2.4">表3.2.4</a>。</span></p>
- 
- 		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.2.4">表3.2.4 桥梁主要部件技术状况评定标度</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=100px>技术状况<br>评定等级</td>
-				  <td  align="center" width=800px>桥梁技术状况描述</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >1类</td>
-		      <td  align="left" >全新状态、功能完好</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >2类</td>
-		      <td  align="left" >功能良好，材料有局部轻度缺损或污染</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >3类</td>
-		      <td  align="left" >材料有中等缺损；或出现轻度功能性病害，但发展缓慢，尚能维持正常使用功能</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >4类</td>
-		      <td  align="left" >材料有严重缺损，或出现中等功能型病害，且发展较快；结构变形小于或等于规范值，功能明显降低</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >5类</td>
-		      <td  align="left" >材料有严重缺损，出现严重的功能性病害，且有继续扩展现象；关键部位的部分材料强度达到极限，变形大于规范值，结构的强度、刚度、稳定性不能达到安全通行的要求</td>
-		    </tr>
- 		</table>       
-   <p></p>
-
- 
- <p style="text-align:justify"><a href="#id3.2.5"> 3.2.5</a> <span id="id3.2.5"> 桥梁次要部件技术状况评定标度分为1类、2类、3类、4类，见<a href="#B3.2.5">表3.2.5</a>。</span></p>
-
-		<table id="biaoge" style="font-family:times new roman">
-
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.2.5">表3.2.5 桥梁次要部件技术状况评定标度</b></caption>	
-              
-		    <tr>
-		      <td  align="center" width=100px>技术状况<br>评定等级</td>
-				  <td  align="center" width=800px>桥梁技术状况描述</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >1类</td>
-		      <td  align="left" >全新状态、功能完好；或功能良好，材料有轻度缺损、污染等</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >2类</td>
-		      <td  align="left" >有中等缺损或污染</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >3类</td>
-		      <td  align="left" >材料有严重缺损，出现功能降低；进一步恶化将不利于主要部件，影响正常交通</td>
-		    </tr>
-  		    <tr>
-		      <td  align="center" >4类</td>
-		      <td  align="left" >材料有严重缺损，失去应有功能，严重影响正常交通；或原无设置，而调查需要补设</td>
-		    </tr>
- 		</table>       
-   <p></p>
-
-
-3.2 桥梁技术状况评定工作流程
+3.3 桥涵孔径
 ----------------------------------
 
 .. raw:: html
 
- <p style="text-align:justify"><a href="#id3.3.1"> 3.3.1</a> <span id="id3.3.1"> 桥梁技术状况评定工作流程图如<a href="#fig3.3.1">图3.3.1</a>所示。</span></p>
- <p text-align:center>
- <body>
+ <p style="text-align:justify"><a href="#id3.3.1"> 3.3.1</a> <span id="id3.3.1"> 桥涵孔径的设计必须保证设计洪水以内的各级洪水及流冰，泥石流、漂流物等安全通过，并应考虑壅水、冲刷对上下游的影响，确保桥涵附近路堤的稳定。</span></p>
+ <p>桥涵孔径的设计应考虑桥位上下游已建或拟建桥涵和水工建筑物的状况及其对河床演变的影响。</p>
+ <p>桥涵孔径设计尚应注意河床地形，不宜过分压缩河道、改变水流的天然状态。</p>
+ <p style="text-align:justify"><a href="#id3.3.2"> 3.3.2</a> <span id="id3.3.2"> 小桥，涵洞的孔径，应根据设计洪水流量、河床质地、河床和锥坡加固形式等条件确定，并应符合下列规定：</span></p>
+ <ol>
+ <li>当缺少水文资料时，可根据现场调查的多年洪水痕迹，泛滥范围和既有桥涵验算小桥、涵洞的孔径。</li>
+ <li> 当小桥、涵洞的上游条件许可积水时，依暴雨径流计算的流量可考虑减少，但减少的流量不宜大于总流量的1/4</li>
+ </ol>
+ <p style="text-align:justify"><a href="#id3.3.3"> 3.3.3</a> <span id="id3.3.3"> 特大、大、中桥的孔径布置应按设计洪水流量和桥位河段的特性进行设计计算，并对孔径大小，结构形式，墩台基础埋置深度，桥头引道及调治构造物的布置等进行综合比较。</span></p>
+ <p style="text-align:justify"><a href="#id3.3.4"> 3.3.4</a> <span id="id3.3.4"> 计算桥下冲刷时，应考虑桥孔压缩后设计洪水过水断面所产生的桥下一般冲刷、墩台阻水引起的局部冲刷、河床自然演变冲刷以及调治造物和桥位其他冲刷因素的影响。</span></p>
+ <p style="text-align:justify"><a href="#id3.3.5"> 3.3.5</a> <span id="id3.3.5"> 桥梁金长应按下列规定计算：</span></p>
+ <ol>
+ <li>有桥台的桥梁为两岸桥台侧墙或八字墙尾端间的距离。</li>
+ <li> 无桥台的桥梁为桥面系长度。</li>
+ </ol>
+ <p style="text-align:justify"><a href="#id3.3.6"> 3.3.6</a> <span id="id3.3.6">桥涵跨径在50 m及以下时，宜采用标准化跨径。采用标准化跨径的桥涵宜采用装配式结构及机械化、工厂化施工，桥涵标准化跨径规定如下：0.75 m、1.0 m、1.25 m、1.5 m、2.0 m、2.5 m、3.0 m、4.0 m、5.0 m、6.0 m、8.0 m、10 m、13 m、16 m、 20 m、25 m、30 m、35 m、40 m、45 m、50 m。</span></p>
 
- <figure>
-    <img src="./_static/fig/fig3.3.1.png" alt=" " title=" ">
-        <p></p>     
-  <figcaption style="caption-side:top;text-align: center;color:black"><b style="text-align:center"><div id="fig3.3.1">图 3.3.1 桥梁技术状况评定工作流程图</b></figcaption>
-  </figure>
 
-  </body>
+3.4 桥涵净空
+----------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id3.4.1"> 3.4.1</a> <span id="id3.4.1"> 桥涵净空应符合现行《公路工程技术标准》（JTG B01）中的公路建筑界限规定，并应符合下列规定： </span></p>
+ 
+ <ol>
+ <li> 确定桥面净宽时，应首先考虑与桥梁相连的公路路段的路基宽度，保持桥面净宽与路基宽度相同。</li>
+ <li> 多车道公路上的特大桥为整体式上部结构时，中央分隔带宽度应根据所采用的护栏形式确定，路肩宽度经论证后可采用现行《公路工程技术标准》（JTG B01）有关规定的“最小值”。</li>
+ <li> 高速公路和作为干线功能的一级公路上特大桥的右侧路肩宽度小于2.50 m且桥长超过1000 m时，宜设置紧急停车带和过渡段，紧急停车带宽度包括路肩在内应为3.50 m，有效长度不应小于40 m，间距不宜大于500 m。</li>
+ <li> 桥上设置的各种安全设施及标志等不得侵入桥涵净空限界。</li>
+ </ol>
+
+ <p style="text-align:justify"><a href="#id3.4.2"> 3.4.2</a> <span id="id3.4.2">  桥面人行道、自行车道和拦护设施的布置应符合下列规定： </span></p>
+ 
+  <ol>
+ <li> 高主公路上的桥梁不宜设人行道。一、二、三、四级公路上桥梁的桥上人行道和自行车道的设置，应根据需要定，并应与前后路线布置协调。人行道、自行车道与行车道之间，应设护栏或路缘石等分隔设施，一个自行车道的宽度应为1.0 m；当单独设置自行车道时，不宜小于两个自行车道的宽度。人行道的宽度宜为1.0 m；大于1.0 m时，按0.5 m的级差增加。漫水桥和过水路面可不设人行道。</li>
+ <li> 通行拖控机或畜力车为主的慢行道，其宽度应根据当地行驶拖拉机或畜力车车型及交通量面定；当沿桥梁一侧设置时，不应小于双向行驶要求的宽度。</li>
+ <li> 桥梁护栏设置应符合现行《公路交通安全设施设计规范》（JTG D81）的相关规定。</li>
+ <li> 路缘石高度可取用0.25~0.35 m 。当跨越急流、大河、深谷、重要道路、铁路、主要航道，或桥面常有积雪、结冰时，其路缘石高度宜取用较大值。</li>
+ </ol>
+ 
+ <p style="text-align:justify"><a href="#id3.4.3"> 3.4.3</a> <span id="id3.4.3"> 桥下净空应根据计算水位（设计水位计入壅水、浪高等）或最高流冰水位加安全高度确定，并应符合下列规定： </span></p>
+ 
+  <ol>
+ <li> 当河流有形成流冰阻塞的危险或有漂浮物通过时，应按实际调查的数据，在计算水位的基础上，结合当地具体情况的酌留一定富余量，作为确定桥下净空的依据。对于有淤积的河流，桥下净空应适当增加。 </li>
+ <li> 通航或流放木筏的河流，桥下净空应符合通航标准或流放木筏的要求。有国防要求和其他特殊要求（如石油钻探船只）的航道，其通航标准应与有关部门具体研究确定。 </li>
+ <li> 在不通航或无流放木筏河流上及通航河流的不通航桥孔内，桥下净空不应小于<a href="#B3.4.3">表3.4.3</a>的规定。 </li>
+ </ol>
+
+  <style>
+     #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         vertical-align: middle;
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.4.3">表3.4.3 非通航河流桥下最小净空</b></caption>	
+              
+		    <tr>
+			  <td  align="center" colspan="2">桥梁的部位</td>
+			  <!-- <td></td> -->
+		      <td  align="center" >高出计算水位</td>
+		      <td  align="center" >高出最高流水面（m）</td>
+		    </tr>
+  		    <tr>
+		     <td  align="center" rowspan="3" width=200px>梁底</td>
+			 <td  align="center" width=200px>洪水期无大漂流物</td>
+			 <td  align="center" width=250px>0.50</td>
+			 <td  align="center" width=250px>0.75</td>
+		    </tr>
+  		    <tr>
+		     <!-- <td></td> -->
+		     <td  align="center" > 洪水期有大漂流物</td>
+			 <td  align="center" > 1.50</td>
+			 <td  align="center" >—</td>
+		    </tr>
+  		    <tr>
+		     <!-- <td></td> -->
+		     <td  align="center" >有泥石流</td>
+			 <td  align="center" > 1.00</td>
+			 <td  align="center" > —</td>
+		    </tr>
+  		    <tr>
+		     <td  align="center" colspan="2">支撑垫石顶面</td>
+		     <!-- <td></td> -->
+			 <td  align="center" > 0.25</td>
+			 <td  align="center" > 0.50</td>
+		    </tr>
+  		    <tr>
+		     <td  align="center" colspan="2">有铰拱拱脚</td>
+		     <!-- <td></td> -->
+			 <td  align="center" > 0.25</td>
+			 <td  align="center" > 0.25</td>
+		    </tr>									
+ 		</table>       
+   <p></p>
+
+ <ol start="4">
+ <li> 无饺拱的拱脚允许被设计洪水淹没，但不宜超过拱圈高度的2/3，且拱顶底面至计算水位的净高不得小于1.0 m。</li>
+ <li> 在不通航和无流筏的水库区域内，梁底面或无较拱拱顶底面离开水面的高度不应小于计算浪高的0.75倍加上0.25 m。 </li>
+
+ </ol>
+  <p style="text-align:justify"><a href="#id3.4.4"> 3.4.4</a> <span id="id3.4.4"> 涵洞宜设计为无压力式的。无压力式涵洞内顶点至洞内设计洪水频率标准水位的净高应符合表3.4.4的规定。 </span></p>
+ <p style="text-align:justify"><a href="#id3.4.5"> 3.4.5</a> <span id="id3.4.5"> 立体交叉跨线桥桥下净空应符合下列规定： </span></p>
+   <ol>
+ <li>  公路与公路立体交叉的跨线桥桥下净空及布孔除应符合本规范第3.4.1条桥涵净空的规定外，尚应满足桥下公路的视距和前方信息识别的要求，其结构形式应与周围环境相协调。 </li>
+ <li> 铁路从公路上跨越通过时，其跨线桥桥下净空及布孔除应符合本规范第3.4.1条桥涵净空的规定外，尚应满足桥下公路的视距和前方信息识别的要求。 </li>
+ <li> 农村道路与公路立体交叉的跨线桥桥下净空为： </li>
+  &nbsp; 1） 当农村道路从公路上面跨越时，跨线桥桥下净空应符合本规范第3.4.1条建筑限界的规定;<br />
+  &nbsp; 2） 当农村道路从公路下面穿过时，其净空可根据当地通行的车辆和交叉情况而定，人行通道的净高应大于或等于2.2 m，净宽应大于或等于4.0 m； <br />
+  &nbsp; 3） 畜力车及拖拉机通道的净高应大于或等于2.7 m，净宽应大于或等于4.0 m； <br />
+  &nbsp; 4） 农用汽车通道的净高应大干或等于3.2 m，净宽应根据交通量和通行农业机械的类型选用，且应大于或等于4.0 m； <br />
+  &nbsp; 5） 汽车通道的净高应大丁或等于3.5 m，净宽大于或等于6.0 m。 <br />
+  </ol>
+ <p style="text-align:justify"><a href="#id3.4.6"> 3.4.6</a> <span id="id3.4.6"> 车行天桥桥面净宽按交通量和通行农业机械类型可选用4.5 m或7.0 m，其汽车荷载应符合本规范第4.3.1条有关四级公路汽车荷载的规定。人行天桥桥面净宽应大于或等于3.0 m，其人群荷载应符合本规范第4.3.6条的规定。 </span></p>
+ <p style="text-align:justify"><a href="#id3.4.7"> 3.4.7</a> <span id="id3.4.7"> 管线设施的布置应符合下列规定： </span></p>
+  <ol>
+ <li> 电信线，电力线、电缆、管道等的设置不得侵入公路桥涵净空限界，不得妨害桥涵交通安全，并不得损害桥涵的构造和设施。</li>
+ <li> 严禁易燃、易爆、高压等管线设施利用或通过公路桥梁。天然气输送管道离开特大、大、中桥的安全距离不应小于100 m，离开小桥的安全距离不应小于50m。</li>
+ <li> 高压线跨河塔架的轴线与桥梁的最小间矩，不得小于一倍塔度。高压线与公路桥涵的交叉应符合现行《公路路线设计规题》（JTC D20）的规定。</li>
+ </ol>
+
+3.5 桥上线形及桥头引道
+----------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id3.5.1"> 3.5.1</a> <span id="id3.5.1">  </span></p>
+ <p style="text-align:justify"><a href="#id3.5.2"> 3.5.2</a> <span id="id3.5.2">  </span></p>
+ <p style="text-align:justify"><a href="#id3.5.3"> 3.5.3</a> <span id="id3.5.3">  </span></p>
+ <p style="text-align:justify"><a href="#id3.5.4"> 3.5.4</a> <span id="id3.5.4">  </span></p>
+ <p style="text-align:justify"><a href="#id3.5.5"> 3.5.5</a> <span id="id3.5.5">  </span></p>
+
+
+
+3.6 构造要求
+----------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id3.6.1"> 3.6.1</a> <span id="id3.6.1">  </span></p>
+ <p style="text-align:justify"><a href="#id3.6.2"> 3.6.2</a> <span id="id3.6.2">  </span></p>
+ <p style="text-align:justify"><a href="#id3.6.3"> 3.6.3</a> <span id="id3.6.3">  </span></p>
+ <p style="text-align:justify"><a href="#id3.6.4"> 3.6.4</a> <span id="id3.6.4">  </span></p>
+ <p style="text-align:justify"><a href="#id3.6.5"> 3.6.5</a> <span id="id3.6.5">  </span></p>
+ <p style="text-align:justify"><a href="#id3.6.6"> 3.6.6</a> <span id="id3.6.6">  </span></p>
+ <p style="text-align:justify"><a href="#id3.6.7"> 3.6.7</a> <span id="id3.6.7">  </span></p>
+ <p style="text-align:justify"><a href="#id3.6.8"> 3.6.8</a> <span id="id3.6.8">  </span></p>
+ <p style="text-align:justify"><a href="#id3.6.9"> 3.6.9</a> <span id="id3.6.9">  </span></p>
+ 
+
+3.7 桥面铺装、防水和排水
+----------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id3.7.1"> 3.7.1</a> <span id="id3.7.1">  </span></p>
+ <p style="text-align:justify"><a href="#id3.7.2"> 3.7.2</a> <span id="id3.7.2">  </span></p>
+ <p style="text-align:justify"><a href="#id3.7.3"> 3.7.3</a> <span id="id3.7.3">  </span></p>
+ <p style="text-align:justify"><a href="#id3.7.4"> 3.7.4</a> <span id="id3.7.4">  </span></p>
+ <p style="text-align:justify"><a href="#id3.7.5"> 3.7.5</a> <span id="id3.7.5">  </span></p>
+ <p style="text-align:justify"><a href="#id3.7.6"> 3.7.6</a> <span id="id3.7.6">  </span></p>
+
+3.8 养护及其他附属设施
+----------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify"><a href="#id3.8.1"> 3.8.1</a> <span id="id3.8.1"> 桥涵应设置维修养护通道。特大、大桥应根据需要设置必要的检查平台、扶梯、内照明、人口井盖、专用检修车等设施；需借助墩顶作为检修平台时，桥墩应根据需要设置安全设施。 </span></p>
+ <p style="text-align:justify"><a href="#id3.8.2"> 3.8.2</a> <span id="id3.8.2"> 特大桥和大桥应设置永久观测点。特大、大、中桥桥墩台旁必要时可设置水尺或标志 </span></p>
+ <p style="text-align:justify"><a href="#id3.8.3"> 3.8.3</a> <span id="id3.8.3"> 位于桥面上的拉索、吊杆、拱助等受力构件应设置必要的防撞保护设施。 </span></p>
+ <p style="text-align:justify"><a href="#id3.8.4"> 3.8.4</a> <span id="id3.8.4"> 桥梁应根据相关规范的规定进行防雷设计，设置避雷设施。 </span></p>
+ <p style="text-align:justify"><a href="#id3.8.5"> 3.8.5</a> <span id="id3.8.5"> 特大、大、中桥可根据需要设置防火、照明和导航设备以及养护工房、库房和守卫房等，必要时可设置紧急电话。 </span></p>
+ <p style="text-align:justify"><a href="#id3.8.6"> 3.8.6</a> <span id="id3.8.6"> 技术复杂的大型桥梁工程可根据需要设置必要的结构监测设施。 </span></p>
+ <p style="text-align:justify"><a href="#id3.8.7"> 3.8.7</a> <span id="id3.8.7"> 桥梁在跨越公路和铁路部分应设置防抛网。 </span></p>
+ 
+:math:`\ `
