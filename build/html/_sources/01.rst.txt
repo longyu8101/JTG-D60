@@ -10,7 +10,7 @@
  <p style="text-align:justify"><a href="#id1.0.1"> 1.0.1</a> <span id="id1.0.1">为规范公路桥涵设计，按照安全、耐久、适用、环保、经济和美观的原则，制定本规范。</span></p>
  <p style="text-align:justify"><a href="#id1.0.2"> 1.0.2</a> <span id="id1.0.2">本规范适用于新建和改建各等级公路桥涵的设计。</span></p>
  <p style="text-align:justify"><a href="#id1.0.3"> 1.0.3</a> <span id="id1.0.3">公路桥涵结构的设计基准期为100年。</span></p>
- <p style="text-align:justify"><a href="#id1.0.4"> 1.0.4</a> <span id="id1.0.4">公路桥涵主体结构和可更换部件的设计使用年限不应低于<a href="#B3.2.2">表1.0.4</a>的规定。</span></p>
+ <p style="text-align:justify"><a href="#id1.0.4"> 1.0.4</a> <span id="id1.0.4">公路桥涵主体结构和可更换部件的设计使用年限不应低于<a href="#B1.0.4">表1.0.4</a>的规定。</span></p>
  <style>
      #biaoge {
          border: 2px solid black;
@@ -84,7 +84,7 @@
 
 .. raw:: html
 
-  <p style="text-align:justify"><a href="#id1.0.5"> 1.0.5</a> <span id="id1.0.5">特大、大、中，小桥及涵洞按单孔跨径或多孔跨径总长分类规定见<a href="#B3.2.2">表1.0.5</a>。</span></p>
+  <p style="text-align:justify"><a href="#id1.0.5"> 1.0.5</a> <span id="id1.0.5">特大、大、中，小桥及涵洞按单孔跨径或多孔跨径总长分类规定见<a href="#B1.0.5">表1.0.5</a>。</span></p>
  <style>
      #biaoge {
          border: 2px solid black;
@@ -110,7 +110,7 @@
 
 		<table id="biaoge" style="font-family:times new roman">
 
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.0.4">表1.0.5 桥梁涵洞分类</b></caption>	
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B1.0.5">表1.0.5 桥梁涵洞分类</b></caption>	
               
 		    <tr>
 		      <td  align="center" width=300px>桥涵分类</td>
