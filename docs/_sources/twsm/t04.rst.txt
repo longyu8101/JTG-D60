@@ -1,222 +1,47 @@
-4 桥梁技术状况评定
+4 作用
 ===================
 
 .. raw:: html
 
-  <h2 id="test111">4 桥梁技术状况评定</h2>
+  <h2 id="test111">4 作用</h2>
 
-4.1 桥梁技术状况评定计算
+4.1 作用分类、代表值和作用组合
 -----------------------------------
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 由于发生在不同构件的各种病害对桥梁影响程度不同，每种病害的最严重等级也不同。病害最严重等级分为3级、4级、5级（例如：蜂窝麻面最严重等级为3级，主梁的裂缝最严重等级为5级）。通过<a href="https://jtg-h21.readthedocs.io/zh/latest/04.html#B4.1.1">表4.1.1</a>将不同病害进行分级扣分，某些病害达到最严重也仅能评为3级，此病害扣分为60分；某些病害达到最严重评为4级，此病害扣分为70分；某些病害达到最严重能评为5级，此病害扣分为100分。按照这种扣分方法能体现出不同病害对桥梁影响程度的不同。</p>
- <p style="text-align:justify;text-indent:2em;"> 对照<a href="https://jtg-h21.readthedocs.io/zh/latest/04.html#B4.1.1">表4.1.1</a>得到构件各病害量化评定指标值(0-100分)，然后根据技术状况评定模型依次得到构件、部件的最化评定值，最后根据各部件量化评定值分别得到桥面系、上部结构、下部结构的量化评定值，从而最终得到整桥的综合评定值。</p>
- <p style="text-align:justify;text-indent:2em;"> 在主要部件评分中，当主要部件的构件评分值在[0，60)时，主要部件的评分值等于此构件的评分值。</p>
- <p style="text-align:justify;text-indent:2em;"> 实际工作中当存在某座桥梁没有设置某些部件时，如单跨桥梁无桥墩、部分桥梁无人行道等类似情况，需要根据此构件隶属于上部构件、下部构件或桥面系关系，将此缺失构件的权重值分配给其他部件。分配方法采用将缺失部件权重值按照既有部件权重在全部既有部件权重中所占比例进行分配的方法，简单易行，从而保证既有部件参与评价，使桥梁评价更符合实际情况。</p>
- <p style="text-align:justify;text-indent:2em;"> 例：xx梁式桥为单跨桥梁，无桥墩部件，其部件权重值分配表见<a href="#Bt4-1">表4-1</a>。</p>
- <style>
-     #biaoge {
-         border: 2px solid black;
-         border-collapse: collapse;
-         margin-bottom:1px;
-        
-      }
-      th, td {
-         padding-top: 5px;
-         padding-bottom:5px;
-         padding-left:5px;
-         padding-right:5px;
-         border: 1px solid black;
-         vertical-align: middle;
-      }
-      #eqzs {
-         border: 0px;
-         vertical-align: top;
-      }
-      #dhbg {
-        vertical-align: middle;
-      }
-     </style>
-
- <table id="biaoge" style="font-family:times new roman">
-
-     <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="Bt4-1"> 表4-1 X X 梁式桥部件权重值分配表</b></caption>	
-   <tr>
-    <td  align="center" width=60px id="dhbg">部位</td>
-    <td  align="center" width=70px id="dhbg">类别<i>i</i></td>
-    <td  align="center" width=220px id="dhbg">部件名称</td>
-    <td  align="center" width=60px id="dhbg">权重</td>
-    <td  align="center" width=100px id="dhbg">重新分配后权重</td>
-    <td  align="center" width=300px id="dhbg">计算式</td>
-    <td  align="center" width=85px id="dhbg">备注</td>
-   </tr>
-  <tr>
-    <td  align="center" rowspan="3" id="dhbg">上部结构</td>
-    <td  align="center" >1</td>
-    <td  align="center">上部承重构件<br>(主梁、挂梁)</td>
-    <td  align="center">0.70</td>
-    <td  align="center">0.70</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >2</td>
-    <td  align="center">上部一般构件<br>(湿接缝、横隔板等)</td>
-    <td  align="center">0.18</td>
-    <td  align="center">0.18</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >3</td>
-    <td  align="center">支座</td>
-    <td  align="center">0.12</td>
-    <td  align="center">0.12</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-   </tr>  
-   <tr>
-    <td  align="center" rowspan="7" id="dhbg">下部结构</td>
-    <td  align="center" >4</td>
-    <td  align="center">翼墙耳墙</td>
-    <td  align="center">0.02</td>
-    <td  align="center">0.03</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.02 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.02 </mi> </math></td>
-    <td  align="center"rowspan="2" >保留两位小数</td>
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >5</td>
-    <td  align="center">锥坡护坡</td>
-    <td  align="center">0.01</td>
-    <td  align="center">0.01</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.01 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.01 </mi> </math></td>
-    <!-- <td></td> -->
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >6</td>
-    <td  align="center">桥墩</td>
-    <td  align="center">0.30</td>
-    <td  align="center">0.00</td>
-    <td  align="center">无</td>
-    <td  align="center">无桥墩</td>
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >7</td>
-    <td  align="center">桥台</td>
-    <td  align="center">0.30</td>
-    <td  align="center">0.43</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.30 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.30 </mi> </math></td>
-    <td  align="center"rowspan="4" >保留两位小数</td>
-   </tr>  
-   <tr>
-    <!-- <td></td> -->
-    <td  align="center" >8</td>
-    <td  align="center">墩台基础</td>
-    <td  align="center">0.28</td>
-    <td  align="center">0.40</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.28 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.28 </mi> </math></td>
-    <!-- <td></td> -->
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >9</td>
-    <td  align="center">河床</td>
-    <td  align="center">0.07</td>
-    <td  align="center">0.10</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.07 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.07 </mi> </math></td>
-    <!-- <td></td> -->
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >10</td>
-    <td  align="center">调治构造物</td>
-    <td  align="center">0.02</td>
-    <td  align="center">0.03</td>
-    <td  align="center"><math xmlns='http://www.w3.org/1998/Math/MathML'> <mfrac> <mrow> <mi> 0.02 </mi> </mrow> <mrow> <mi> (0.02+0.01+0.30+0.28+0.07+0.02) </mi> </mrow> </mfrac> <mo> &#x00D7; <!-- multiplication sign --> </mo> <mi> 0.30 </mi> <mo> + </mo> <mi> 0.02 </mi> </math></td>
-    <!-- <td></td> -->
-    </tr>
- <tr>
-    <td  align="center" rowspan="6" id="dhbg">桥面系</td>
-    <td  align="center" >11</td>
-    <td  align="center">桥面铺装</td>
-    <td  align="center">0.40</td>
-    <td  align="center">0.40</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >12</td>
-    <td  align="center">伸缩缝装置</td>
-    <td  align="center">0.25</td>
-    <td  align="center">0.25</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >13</td>
-    <td  align="center">人行道</td>
-    <td  align="center">0.10</td>
-    <td  align="center">0.10</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >14</td>
-    <td  align="center">栏杆、护栏</td>
-    <td  align="center">0.10</td>
-    <td  align="center">0.10</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >15</td>
-    <td  align="center">排水系统</td>
-    <td  align="center">0.10</td>
-    <td  align="center">0.10</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>  
-    <tr>
-    <!-- <td></td> -->
-    <td  align="center" >16</td>
-    <td  align="center">照明、标志</td>
-    <td  align="center">0.05</td>
-    <td  align="center">0.05</td>
-    <td  align="center">无</td>
-    <td  align="center"> </td>
-    </tr>           
-
- </table>
- <p> </p> 
+ <p style="text-align:justify"><a href="#id4.1.1"> 4.1.1</a> <span id="id4.1.1"> 引起结构反应的原因可以按作用的性质分为截然不同的两类：一类是施加于结构上的外力，如车辆、人群、结构自重等，它们是直接施加于结构上的，可用“荷载”这一术语来概括；另一类不是以外力形式施加于结构，它们产生的效应与结构本身的特性、结构所处环境等有关，如地震、基础变位、混凝土收缩和徐变、温度变化等，它们是间接作用于结构的，如果也称“荷载”,容易引起人们的误解。因此，目前国际上普遍将所有引起结构反应的原因统称为“作用”,而“荷载”仅限于表达施加于结构上的直接作用。</span></p>
+ <p style="text-align:justify;text-indent:2em;"> 作用按随时间的变化分为永久作用、可变作用和偶然作用。这种分类是结构上作用的基本分类。永久作用是经常作用的且数值不随时间变化或变化微小的作用；可变作用的数值是随时间变化的；偶然作用的作用时间短暂，且发生的概率很小。如前所述，地震作用是一种特殊的偶然作用，因此，将地震作用单列为一种类型。</p>
+ <p style="text-align:justify"><a href="#id4.1.2"> 4.1.2</a> <span id="id4.1.2"> 作用具有变异性，但在结构设计时，不可能直接引用作用随机变量或随机过程的各类统计参数通过复杂的计算进行设计，作用代表值就是为结构设计而给定的量值。设计的要求不同，采用的作用代表值也可不同，这样可以更确切、合理地反映作用对结构在不同设计要求下的特点。作用的代表值一般可分为标准值、组合值、频遇值和准永久值。</span></p>
+ <p style="text-align:justify;text-indent:2em;"> 永久作用(如恒荷载)被近似地认为在设计基准期内是不变的，它的代表值只有一个，即标准值。可变作用按其在随机过程中出现的持续时间或次数的不同，可取标准值、组合值、频遇值和准永久值作为其代表值。</p>
+ <p style="text-align:justify;text-indent:2em;"> 作用的标准值是结构设计的主要参数，关系到结构的安全问题，是作用的基本代表值。作用的标准值反映了作用在设计基准期内随时间的变异，其量值应取结构设计规定期限内可能出现的最不利值，一般按作用在设计基准期内最大值概率分布的某一分位值确定。</p>
+ <p style="text-align:justify;text-indent:2em;"> 对于结构自重，包括结构的附加重力，它们的标准值按结构设计规定的设计尺寸和材料的重度计算确定。调查统计表明，结构的设计尺寸与实测均值极为相近；钢筋混凝土构件的重度与规范的规定值也是接近的。</p>
+ <p style="text-align:justify;text-indent:2em;"> 可变作用的组合值是指在主导可变作用(汽车荷载)出现时段内其他可变作用的最大量值，但它比可变作用的标准值小，实际上由标准值乘以小于1的组合值系数ψ<sub>c</sub>得到。</p>
+ <p style="text-align:justify;text-indent:2em;"> 可变作用的频遇值是指结构上较频繁出现的且量值较大的作用取值，但它比可变作用的标准值小，实际上由标准值乘以小于1的频遇值系数ψ<sub>f</sub>得到。</p>
+ <p style="text-align:justify;text-indent:2em;"> 可变作用的准永久值是指在结构上经常出现的作用取值，但它比可变作用的频遇值又要小一些，实际上是由标准值乘以小于ψ<sub>f</sub>的准永久值系数ψ<sub>q</sub>得到。</p>
+ <p style="text-align:justify"><a href="#id4.1.4"> 4.1.4</a> <span id="id4.1.4"> 结构通常要同时承受多种作用。在进行结构设计时，无论是承载能力极限状态还是正常使用极限状态，均应考虑可能同时出现的多种作用的组合，求其总的作用效应，同时考虑到作用出现的变化性质，包括作用出现与否及作用出现的方向。这种组合是多种多样的，应在考虑的所有可能的组合中，取其最不利的作用组合效应进行设计。</span></p>
+ <p style="text-align:justify;text-indent:2em;"> 规范只指出了作用组合要考虑的范围，其具体组合的内容，尚需由设计者根据实际情况确定，规范不宜规定过死。对于一部分不能同时组合的作用，规范以表的形式列出。制动力与支座摩阻力不同时组合，这是考虑到活动支座的最大摩阻力，当上部构造恒载一定、支座摩阻系数一定时是一个定值。任何纵向力，不能大于支座摩阻力，因此，制动力与支座摩阻力不同时存在。流水压力不与汽车制动力、波浪力、冰压力同时组合，这是考虑同时出现的可能性极小，或波浪力、冰压力远大于流水压力，且实测中也难以分开。</p>
+ <p style="text-align:justify"><a href="#id4.1.5"> 4.1.5</a> <span id="id4.1.5"> 公路桥涵结构的承载能力极限状态设计，按照可能出现的作用，将其分为三种作用组合，即基本组合、偶然组合和地震组合。作用的基本组合是指永久作用设计值与可变作用设计值的组合，这种组合用于结构的常规设计，是所有公路桥涵结构都应该考虑的。作用的偶然组合是指永久作用标准值、可变作用代表值和一种偶然作用设计值的组合，视具体情况，也可不考虑可变作用参与组合。作用偶然组合和地震组合用于结构在特殊情况下的设计，所以不是所有公路桥涵结构都要采用的，一些结构也可采取构造或其他预防措施来解决。</span></p>
+ <p style="text-align:justify;text-indent:2em;"> (1)组合表达式<br/>&emsp;&emsp;&nbsp;本条<a href="https://jtg-d60.readthedocs.io/zh/latest/04.html#id4.1.5">式(4.1.5-1)</a>和<a href="https://jtg-d60.readthedocs.io/zh/latest/04.html#id4.1.5">式(4.1.5-2)</a>是国内外普遍采用的承载能力极限状态设计作用基本组合表达式。前者的基本参数采用标准值，再乘以分项系数；后者则以设计值来表达基本设计参数。两个表达式本质是相同的，钢筋混凝土结构、钢结构和圬工结构设计规范可根据各自情况选用。</p>
+ <p style="text-align:justify;text-indent:2em;"> (2)重要性系数<br/>&emsp;&emsp;&nbsp;公路桥涵进行持久状况和短暂状况承载能力极限状态设计时，根据结构破坏可能产生的后果的严重程度划分为三个设计安全等级，并用结构重要性系数来体现不同情况的桥涵的可靠度差异。<a href="https://jtg-d60.readthedocs.io/zh/latest/04.html#B4.1.5.1">表4.1.5-1</a>列出了不同安全等级对应的桥涵类型。设计工程师也可根据桥涵的具体情况，与业主商定，但不能低于<a href="https://jtg-d60.readthedocs.io/zh/latest/04.html#B4.1.5.1">表4.1.5-1</a>所列等级。</p>
+ <p style="text-align:justify;text-indent:2em;"> (3)分项系数<br/>&emsp;&emsp;&nbsp;本次修订调整了车辆荷载的分项系数。全国汽车荷载研究中，轴(组)重的研究结果显示，三联轴数量多且超载非常严重，并且这类轴型对于桥梁结构的局部和小跨径桥涵的整体安全影响很大，因此，规范应当予以考虑。为了探讨三联轴重量的确定标准，轴(组)重研究中，项目组对全国数据的轴重限值保证率进行了研究，各种方案中，在现行规范双轴组的基础上增加一个后轴42t的三轴组模型其保证率达到了98.6%以上。为了既能反映实际情况中三联轴居多且偏重的实际，又能维持规范的延续性，本次修订建议仍采用现行规范的车辆荷载，只是在利用车辆荷载计算时，将分项系数由1.4提高至1.8，提高的比率是按照42 t的三联轴效应与双联轴效应等效的原则确定的。</p>
+ <p style="text-align:justify;text-indent:2em;"> 汽车荷载在公路工程结构中通常被视为主导的可变作用，在设计表达式中与永久作用一样单独列出，车道荷载与车辆荷载采用不同的作用分项系数。在桥梁设计中，当某个可变作用对结构或结构构件确实起到主导影响(在同类效应中其值超过汽车效应)时，则其分项系数采用1.4；对于专为承受某作用而设置的结构或装置，如钢桥的风构，设计时风荷载可被视为主导作用，其分项系数取1.4。同时，作用组合中的车道荷载或车辆荷载仍然取用1.4或1.8的作用分项系数。</p>
+ <p style="text-align:justify;text-indent:2em;"> <a href="https://jtg-d60.readthedocs.io/zh/latest/04.html#B4.1.5.2">表4.1.5-2</a>中土侧压力的分项系数取为1.4，是因为它在多数情况下是按主导荷载考虑的，但当汽车荷载考虑了分项系数后，由汽车荷载引起的土侧压力不再考虑。基础变位作用在以往的桥梁计算中是作为“附加组合”考虑的，其分项系数可采用1.0；对于混凝土和圬工结构，由于混凝土徐变或灰缝塑性变形对基础变位产生的内力的影响，采用0.5的折减系数。</p>
+ <p style="text-align:justify;text-indent:2em;"> (4)频遇值和准永久值<br/>&emsp;&emsp;&nbsp;按照国际惯例，本规范对已调查的主要可变作用的频遇值和准永久值分别取其随机过程截口任意时点分布的0.95和0.5分位值；对不可调查或尚未调查的可变作用仍取标准值或参照有关资料取值。</p>
+ <p style="text-align:justify;text-indent:2em;"> (5)组合值系数<br/>&emsp;&emsp;&nbsp;关于组合值系数，本次修订过程中，计算了组合值系数采用下列不同情况时结构的可靠指标：</p>
+ <p style="text-align:justify;text-indent:2em;"> ①2、3、4和5个可变作用组合时，组合值系数分别取0.74、0.55、0.45 和0.35,即组合值系数随可变荷载数目变化；<br/>&emsp;&emsp;&nbsp;②2、3、4和5个可变作用组合时，组合值系数均取0.74,即组合值系数不随可变荷载数目变化；<br/>&emsp;&emsp;&nbsp;③2、3、4和5个可变作用组合时，组合值系数分别取 0.80、0.70、0.60和0.50,即组合值系数随可变荷载数目变化；<br/>&emsp;&emsp;&nbsp;④2、3、4和5个可变作用组合时，组合值系数均取0.80,即组合值系数不随可变荷载数目变化。</p>
+ <p style="text-align:justify;text-indent:2em;"> 结果表明，对于车辆的一般运行状态和密集运行状态，当采用方案①时，随着可变荷载数目的增加，所有钢筋混凝土构件的可靠指标减小，且减小的幅度比较大；当采用方案②时，随着可变荷载数目的增加，所有钢筋混凝土构件的可靠指标增大，但变化不大；当采用方案③时，随着可变荷载数目的增加，所有钢筋混凝土构件的可靠指标减小，但减小的幅度比方案①小；当采用方案④时，随着可变荷载数目的增加，所有钢筋混凝土构件的可靠指标增大，增加的幅度比方案②大。为了保持不同可变荷载组合数目时构件的可靠指标不变，规范中组合值系数取0.75。</p>
 
 
-
-
-
- <p style="text-align:justify;text-indent:2em;"> 鉴于4.5类桥梁的严重性，桥梁总体技术状况评定除了按照评定模型进行计算后按照<a href="https://jtg-h21.readthedocs.io/zh/latest/04.html#B4.1.5">表4.1.5</a>进行技术状况分类以外，本标准在<a href="https://jtg-h21.readthedocs.io/zh/latest/04.html#id4.1.6">4.1.6</a> ~ <a href="https://jtg-h21.readthedocs.io/zh/latest/04.html#id4.1.8">4.1.8</a>条中对4、5类桥梁的技术状况附加了3条要求。</p>
- <p style="text-align:justify;text-indent:2em;"> 如果桥梁出现了<a hrf="https://jtg-h21.readthedocs.io/zh/latest/04.html#id4">4.3节</a>中任一情况，但是全桥技术状况评分没有达到5类桥梁评分范围，桥梁也应评定为5类。</p>
- <p style="text-align:justify;text-indent:2em;"> 如果桥梁总体技术状况评分计算结果为40≤D，＜60时，但上部结构和下部结构技术状况等级为3类、桥面系技术状况等级为4类，桥梁总体技术状况等级应评定为3类。此条规定是为了避免桥面系评为4类，上部结构和下部结构没有达到4类而导致桥梁总体技术状况评为4类的情况出现。</p>
- <p style="text-align:justify;text-indent:2em;"> 当主要部件的评分为4类或者5类，且影响到桥梁的安全时，本标准允许“可按照桥梁主要部件最差的缺损状况评定”。这是因为各主要部件在桥梁安全使用中的作用作为“串联”分析，荷载内力由桥面依次传递到上部结构、墩台、基础、地基，某一个环节出现严重缺损都可能影响到桥梁的安全使用。主要部件不仅对安全使用至关重要，而且维修工作量大、难度也较大，这种评定方法突出了安全因素的影响。</p>
-
-
-4.2 各结构形式桥梁部件分类及权重指
+4.2 永久作用
 ------------------------------------------
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 在进行上部结构、下部结构、桥面系的综合评定时，依据不同桥型各部件重要程度的不同，给予了各类型桥梁部件不同的权重<i>W</i><sub>i</sub>。在进行全桥的综合评定时，依据上部结构、下部结构、桥面系重要程度的不同，分别给予了上部结构的权重<i>W</i><sub>SP</sub>、下部结构的权重<i>W</i><sub>SB</sub>、桥面系的权重<i>W</i><sub>D</sub>。由于各地环境条件不同，除了采用本规范的推荐值外，还允许依据实际情况进行调整。调整权重可采用专家评估法，调整值应经过批准认可，对主要构件的权重则不宜减小。</p>
+ <p style="text-align:justify"><a href="#id4.2.1"> 4.2.1</a> <span id="id4.2.1"> 本次修订补充了结构重力标准值的常规计算公式，各常用材料的重度等内容与原规范保持不变。</span></p>
 
-4.3 5类桥梁技术状况单项控制指标
-------------------------------------------------
+
+
+4.3 可变作用
+------------------------------------------
 .. raw:: html
 
- <p style="text-align:justify;text-indent:2em;"> 主要部件和其他部件的关键病害对安全使用至关重要，为了突出安全因素的影响，本标准将5类桥梁的评定方法列出，制定了各类桥梁5类技术状况单项控制指标，通过桥梁的关键病害确定桥梁的技术状况等级，以引起管理者的重视，及时、认真地进行养护维修，确保安全。</p>
- <p style="text-align:justify;text-indent:2em;"> 实践证明，桥梁某些关键部位出现严重病害就足以危及桥梁安全，即使其他部位状况再好，也不能改善其总体安全状态。因此，本标准制定了将桥梁技术状况评定为5类的单项控制指标，只要在桥梁检查中发现符合此节规定的任一情况时，就应将整座桥技术状况评定为5类。</p>
+ <p style="text-align:justify"><a href="#id4.3.1"> 4.3.1</a> <span id="id4.3.1"> 本条有关汽车荷载的规定，兹说明如下：</span></p>

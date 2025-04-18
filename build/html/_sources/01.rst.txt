@@ -79,8 +79,9 @@
              <!-- <td></td> -->
 		    </tr>
   		    
- 		</table>       
-:math:`\ `
+ 		</table>   
+
+
 
 .. raw:: html
 
@@ -153,5 +154,5 @@
  <p style="text-align:justify"><a href="#id1.0.8"> 1.0.8</a> <span id="id1.0.8">公路桥涵设计除应符合本规范的规定外，尚应符合国家和行业现行有关标准的规定。</span></p>
 
 
- 
+:math:`\ ` 
   
